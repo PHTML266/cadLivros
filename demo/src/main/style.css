@@ -1,0 +1,33 @@
+/* Por PHTML266
+ * 
+ */
+body{
+    background-image: url(img/livro.jpg);
+    text-align: initial;
+    font-size:x-large;
+    font-family: Magic;
+}
+
+.align{
+    border: 3px solid;
+    border-radius: 7px;
+    padding: 10px;
+    width: 500px;
+    height: 550px;
+    background: rgb(159, 110, 76);
+    color: rgb(77, 39, 9);
+}
+
+@font-face {
+    font-family: Magic;
+    src: url(Kaoly-Demo-Regular.ttf);
+  }
+
+.button{
+    margin: 2px solid;
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.587);
+    border-radius: 5px;
+    display: inline;
+}
