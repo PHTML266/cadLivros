@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gerenciamento de Livros</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="align">
+
+        <h2>Cadastrar Livro:</h2>
+        <table>
+            <tr>
+                <form id="cadastroForm">
+                <td><label for="description">Descrição:</label></td>
+                <td><input type="text" id="description" name="description" required><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="isbn">ISBN:</label></td>
+                <td><input type="text" id="isbn" name="isbn" required><br></td>
+            </tr>
+            <tr>
+                <td><button class="button" type="submit">➕Cadastrar</button></td>
+                <td><button class="button" type="button" onclick="atualizarLivro()">🔁Atualizar</button></td>
+                <td><button class="button" type="button" onclick="deletarLivro()">❌deletar</button></td>
+            </tr>
+        </form>
+
+            <tr><td><h2>Pesquisar:</h2></td></tr>
+
+            <tr>
+                <form id="pesquisaForm">
+                    <td><label for="searchId">ID do Livro:</label></td>
+                    <td><input type="text" id="searchId" name="searchId"><br></td>
+                </tr><tr>
+                    <td><button class="button" type="button" onclick="pesquisarLivro()">🔎Pesquisar</button></td>
+                </form>
+            </tr>
+        </table>
+        <script src="main.js"></script>
+
+</div>
+</body>
+</html>
